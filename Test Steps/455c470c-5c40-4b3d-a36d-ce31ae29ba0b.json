@@ -1,0 +1,8 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home click on button onetrust accept btn handler",
+        "step 3: At Page home click on hyperlink web testing --> navigate to Page web-testing",
+        "step 4: Add visual checkpoint at Page web-testing"
+    ]
+}
