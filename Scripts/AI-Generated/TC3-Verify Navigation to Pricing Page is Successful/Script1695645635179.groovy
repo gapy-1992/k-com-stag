@@ -9,13 +9,13 @@ def setup() {
 	WebUI.setViewPortSize(1920, 1080)	
 }
 
-'step 1: Navigate to Page test-automation-roi'
+'step 1: Navigate to Page pricing'
 
-WebUI.navigateToUrl(GlobalVariable.application_domain + '/test-automation-roi')
+WebUI.navigateToUrl(GlobalVariable.application_domain + '/pricing')
 
-'step 2: Add visual checkpoint at Page test-automation-roi'
+'step 2: Add visual checkpoint at Page pricing'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Test Automation ROI Page after Navigating_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Navigation to Pricing Page is Successful_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

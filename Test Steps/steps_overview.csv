@@ -1,10 +1,10 @@
 Flow ID,Test Steps,Flow Priority
-3,"step 1: Navigate to Page test-automation-roi
+4,"step 1: Navigate to Page test-automation-roi
 step 2: Add visual checkpoint at Page test-automation-roi",High
-4,"step 1: Navigate to Page business-outcomes
-step 2: Add visual checkpoint at Page business-outcomes",High
-1,"step 1: Navigate to Page web-testing
-step 2: At Page web-testing click on hyperlink pricing --> navigate to Page pricing
-step 3: Add visual checkpoint at Page pricing",Trivial
-2,"step 1: Navigate to Page home
+2,"step 1: Navigate to Page web-testing
+step 2: At Page web-testing click on hyperlink business outcomes --> navigate to Page business-outcomes
+step 3: Add visual checkpoint at Page business-outcomes",High
+1,"step 1: Navigate to Page home
 step 2: Add visual checkpoint at Page home",Trivial
+3,"step 1: Navigate to Page pricing
+step 2: Add visual checkpoint at Page pricing",Trivial

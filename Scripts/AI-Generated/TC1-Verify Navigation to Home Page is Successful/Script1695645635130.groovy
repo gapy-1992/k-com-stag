@@ -9,13 +9,13 @@ def setup() {
 	WebUI.setViewPortSize(1920, 1080)	
 }
 
-'step 1: Navigate to Page business-outcomes'
+'step 1: Navigate to Page home'
 
-WebUI.navigateToUrl(GlobalVariable.application_domain + '/business-outcomes')
+WebUI.navigateToUrl(GlobalVariable.application_domain + '/')
 
-'step 2: Add visual checkpoint at Page business-outcomes'
+'step 2: Add visual checkpoint at Page home'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Business Outcomes Page after Navigating_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Navigation to Home Page is Successful_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

@@ -1,7 +1,7 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.model.FailureHandling
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -15,9 +15,9 @@ def setup() {
 
 WebUI.navigateToUrl(GlobalVariable.application_domain + '/web-testing')
 
-'step 2: At Page web-testing click on hyperlink pricing --> navigate to Page pricing'
+'step 2: At Page web-testing click on hyperlink business outcomes --> navigate to Page business-outcomes'
 
-testObj = findTestObject('Object Repository/Page_web-testing/hyperlink_pricing')
+testObj = findTestObject('Object Repository/Page_web-testing/hyperlink_business_outcomes')
 
 WebUI.delay(3)
 
@@ -29,9 +29,9 @@ WebUI.verifyMatch(WebUI.getUrl(), '.*/web-testing(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(testObj)
 
-'step 3: Add visual checkpoint at Page pricing'
+'step 3: Add visual checkpoint at Page business-outcomes'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Pricing Page after Navigating from Web Testing Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Navigation to Business Outcomes Page is Successful_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
