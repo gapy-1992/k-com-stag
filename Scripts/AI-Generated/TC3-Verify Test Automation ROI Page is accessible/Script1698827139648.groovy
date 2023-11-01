@@ -11,11 +11,11 @@ def setup() {
 
 'step 1: Navigate to Page test-automation-roi'
 
-WebUI.navigateToUrl(GlobalVariable.application_domain + '/test-automation-roi')
+WebUI.navigateToUrl(GlobalVariable.application_domain + '')
 
 'step 2: Add visual checkpoint at Page test-automation-roi'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Navigation to Test Automation ROI Page is Successful_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Test Automation ROI Page is accessible_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

@@ -1,7 +1,0 @@
-{
-    "steps": [
-        "step 1: Navigate to Page web-testing",
-        "step 2: At Page web-testing click on hyperlink business outcomes --> navigate to Page business-outcomes",
-        "step 3: Add visual checkpoint at Page business-outcomes"
-    ]
-}

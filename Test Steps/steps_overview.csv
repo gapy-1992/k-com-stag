@@ -1,10 +1,11 @@
-Flow ID,Test Steps,Flow Priority
-4,"step 1: Navigate to Page test-automation-roi
+Flow ID,Description,Test Steps,Flow Priority
+1,Verify Page Pricing is accessible from Home Page,"step 1: Navigate to Page home
+step 2: At Page home click on button onetrust accept btn handler
+step 3: At Page home click on hyperlink pricing --> navigate to Page pricing
+step 4: Add visual checkpoint at Page pricing",High
+3,Verify Test Automation ROI Page is accessible,"step 1: Navigate to Page test-automation-roi
 step 2: Add visual checkpoint at Page test-automation-roi",High
-2,"step 1: Navigate to Page web-testing
-step 2: At Page web-testing click on hyperlink business outcomes --> navigate to Page business-outcomes
-step 3: Add visual checkpoint at Page business-outcomes",High
-1,"step 1: Navigate to Page home
-step 2: Add visual checkpoint at Page home",Trivial
-3,"step 1: Navigate to Page pricing
-step 2: Add visual checkpoint at Page pricing",Trivial
+4,Verify Business Outcomes Page is accessible,"step 1: Navigate to Page business-outcomes
+step 2: Add visual checkpoint at Page business-outcomes",Medium
+2,Verify Web Testing Page is accessible,"step 1: Navigate to Page web-testing
+step 2: Add visual checkpoint at Page web-testing",Trivial
